@@ -43,26 +43,28 @@ class App extends React.Component {
         <div className="App">
         <div className="calculator">
             <div className="display">
-             <span>{this.state.total || this.state.next }</span>
+            {this.state.total}
+            {this.state.operation}
+            {this.state.next}
             </div>
           
             <div className="operators">
                 <div className="digits">
-                    <button onClick={(e) => this.handleClick(e.target.innerHtml)}>AC</button>
-                    <button onClick={(e) => this.handleClick(e.target.innerHtml)}>+/-</button>
-                    <button onClick={(e) => this.handleClick(e.target.innerHtml)}>%</button>
+                    <button onClick={() => this.handleClick('AC')}>AC</button>
+                    <button onClick={() => this.handleClick('+/-')}>+/-</button>
+                    <button onClick={() => this.handleClick('%')}>%</button>
                    {this.createDigits()}
-                    <button  onClick={(e) => this.handleClick(e.target.innerHtml)} className="btn0">0</button>
+                    <button  onClick={() => this.handleClick('0')} className="btn0">0</button>
                     <button></button>
-                    <button onClick={(e) => this.handleClick(e.target.innerHtml)}>.</button>
+                    <button onClick={() => this.handleClick('.')}>.</button>
                 </div>
 
                 <div className="symbol">
-                    <button onClick={(e) => this.handleClick(e.target.innerHtml)}>+</button>
-                    <button onClick={(e) => this.handleClick(e.target.innerHtml)}>*</button>
-                    <button onClick={(e) => this.handleClick(e.target.innerHtml)}>-</button>
-                    <button onClick={(e) => this.handleClick(e.target.innerHtml)}>+</button>
-                    <button onClick={(e) => this.handleClick(e.target.innerHtml)}>=</button>
+                    <button onClick={() => this.handleClick('+')}>+</button>
+                    <button onClick={() => this.handleClick('x')}>x</button>
+                    <button onClick={() => this.handleClick('-')}>-</button>
+                    <button onClick={() => this.handleClick('+')}>+</button>
+                    <button onClick={() => this.handleClick('=')}>=</button>
                 </div>
             </div>
         </div>
