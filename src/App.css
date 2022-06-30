@@ -9,7 +9,7 @@
   margin: 10% auto;
 }
 
-span {
+.display {
   width: 100%;
   height: 40px;
   display: flex;
