@@ -1,16 +1,17 @@
 import React from 'react'
-import { Routes, Route, Link } from "react-router-dom";
+
 <nav />
 function Quote() {
     return (
       <>
         <main>
           <h2>Quote</h2>
-          <p>You can do this, I believe in you.</p>
+          <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi
+        laborum animi pariatur eveniet quam sint culpa saepe fuga, expedita ipsa
+        omnis sapiente consectetur hic libero iste id? Et, voluptas nisi.
+        </p>
         </main>
-        <nav>
-          <Link to="/Quote">Quote</Link>
-        </nav>
       </>
     );
   }
