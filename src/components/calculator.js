@@ -1,8 +1,8 @@
 import { useState} from "react"
 import calculate from "../logic/calculate"
 
-
 function App() {
+    
     const [total, setTotal] = useState(0);
     const [next, setNext] = useState(null);
     const [operation, setOperation] = useState(null);
@@ -27,7 +27,7 @@ function App() {
         
     }
         return (
-        
+            
         <div className="App">
         <div className="calculator">
             <div className="display">

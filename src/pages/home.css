@@ -1,0 +1,20 @@
+main {
+  position: absolute;
+  margin: 90px;
+  line-height: 25px;
+  background-color: #fff;
+  width: 90vw;
+  height: 50vh;
+}
+
+h2 {
+  margin-left: 80px;
+  font-size: 1.7rem;
+}
+
+p {
+  margin: 0 auto;
+  width: 80%;
+  margin-top: 30px;
+  font-size: 1.2rem;
+}
