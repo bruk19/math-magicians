@@ -3,7 +3,7 @@
   bottom: 15px;
   font-size: 1.7rem;
   left: 20vw;
-  color: brown;
+  color: rgb(100, 2, 2);
 }
 
 a {
@@ -11,6 +11,6 @@ a {
 }
 
 .foot {
-    display: flex;
-    margin-left: 15px;
+  display: flex;
+  margin-left: 15px;
 }
