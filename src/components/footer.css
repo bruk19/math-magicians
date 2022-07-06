@@ -1,0 +1,16 @@
+.footer {
+  position: absolute;
+  bottom: 15px;
+  font-size: 1.7rem;
+  left: 20vw;
+  color: brown;
+}
+
+a {
+  text-decoration: none;
+}
+
+.foot {
+    display: flex;
+    margin-left: 15px;
+}

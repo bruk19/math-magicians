@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './quote.css';
 <nav />
 function Quote() {
     return (

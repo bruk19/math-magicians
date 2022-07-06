@@ -1,5 +1,5 @@
 import * as React from "react";
-
+import './nav.css';
 import { Link } from 'react-router-dom';
 
 
@@ -8,7 +8,7 @@ function Apps() {
     <div>
       <header>
         <h1>Math Magician</h1>
-        <div className="nav-links-container">
+        <div className="nav-links">
           <Link className="links" to="/Home">
             Home
           </Link>

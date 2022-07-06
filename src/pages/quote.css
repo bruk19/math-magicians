@@ -1,0 +1,12 @@
+main {
+  margin: 30px;
+  width: 80vw;
+  height: 60vh;
+  background-color: #fff;
+  padding-left: 0px;
+}
+
+h2 {
+    padding-top: 50px;
+    font-size: 1.5;
+}
